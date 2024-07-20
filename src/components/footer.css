@@ -1,0 +1,37 @@
+#rhyno-logo img{
+    height: 50px;
+    margin: 25px 0px 0px 20px;
+}
+#footer{
+    background-color: black;
+    position: relative; 
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+#links{
+    display: flex;
+    gap: 15px;
+    margin: 0px 40px;
+    flex-wrap: wrap;
+}
+#links a{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.6;
+}
+#links a:hover{
+    opacity: 1;
+    font-weight: 600;
+}
+#logos{
+    display: flex;
+    gap: 15px;
+    margin: 15px 0px 15px 40px;
+    flex-wrap: wrap;
+}
